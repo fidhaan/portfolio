@@ -3,7 +3,7 @@ import { DownloadIcon } from 'lucide-react';
 
 // IMPORTANT: This path assumes your PDF file is located in the public directory 
 // at /public/assets/MyResume.pdf. You may need to adjust the filename.
-const PDF_PATH = './assets/images/Muhammad Fidhaan F M - Resume.pdf'; 
+const PDF_PATH = './assets/fidhaanportfolio.pdf'; 
 
 /**
  * A standalone component that renders a button to trigger a resume download.
@@ -11,9 +11,9 @@ const PDF_PATH = './assets/images/Muhammad Fidhaan F M - Resume.pdf';
  */
 const ResumeDownload = () => (
     <div style={{marginTop: '200px'}}><a 
-        href={PDF_PATH} style={{marginLeft: '650px', backgroundColor: 'green', color: 'white', textDecoration: 'none', padding: '10px'}}
+        href='https://drive.google.com/file/d/1U7cai4uW6yHXAKDVB7THbT2GsgNAGQrN/view?usp=drive_link' style={{marginLeft: '650px', backgroundColor: 'green', color: 'white', textDecoration: 'none', padding: '10px'}}
         // The 'download' attribute forces a download and suggests a filename.
-        download="Muhammad Fidhaan F M Resume.pdf" 
+        download="MuhammadFidhaanFMResume.pdf" 
         className="inline-flex items-center justify-center space-x-2 px-6 py-3 border border-transparent 
                    text-base font-medium rounded-xl shadow-sm text-white bg-green-600 
                    hover:bg-green-700 transition duration-150 ease-in-out transform hover:scale-[1.02]

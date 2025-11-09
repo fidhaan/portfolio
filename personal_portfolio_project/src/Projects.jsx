@@ -19,7 +19,14 @@ function Projects() {
                     </p>
                     <span className="badge bg-secondary me-1">Django</span>
                     <span className="badge bg-secondary me-1">MySQL</span>
-                    {/* ... other badges ... */}
+                    <span className="badge bg-secondary me-1">Python</span>
+                    <span className="badge bg-secondary me-1">JavaScript</span>
+                    <span className="badge bg-secondary me-1">Bootstrap</span>
+                    <span className="badge bg-secondary me-1">CSS</span>
+                    <span className="badge bg-secondary me-1">HTML</span>
+                    <span className="badge bg-secondary me-1">VS Code</span>
+                    <span className="badge bg-secondary me-1">GitHub</span>
+                    <span className="badge bg-secondary me-1">Python Anywhere</span>
                     <div className="mt-3">
                       <a style={{color: 'green', border: '1px solid green'}} href="https://projecthotel204.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-info me-2">Live Demo</a>
                       <a style={{color: 'grey', border: '1px solid grey'}} href="https://github.com/fidhaan/Find-Hotel" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary">GitHub</a>
@@ -36,7 +43,14 @@ function Projects() {
                     <p className="card-text text-muted">
                       Integrated Medical Facility Network shortly called as IMFN. It is hospital management system which provide all services to a patient including online appointment, transfer to another hospital, Ambulance services, Emergency alerts, virtual meeting with doctors etc. This project has 5 modules which are patients, doctors, hospital, ambulance, web application administration
                     </p>
-                    {/* ... badges ... */}
+                    <span className="badge bg-secondary me-1">Django</span>
+                    <span className="badge bg-secondary me-1">Python</span>
+                    <span className="badge bg-secondary me-1">JavaScript</span>
+                    <span className="badge bg-secondary me-1">Bootstrap</span>
+                    <span className="badge bg-secondary me-1">CSS</span>
+                    <span className="badge bg-secondary me-1">HTML</span>
+                    <span className="badge bg-secondary me-1">VS Code</span>
+                    <span className="badge bg-secondary me-1">GitHub</span>
                     <div className="mt-3">
                       <a style={{color: 'green', border: '1px solid green'}} href="" className="btn btn-sm btn-outline-info me-2">Live Demo Not Available</a>
                       <a href="https://github.com/fidhaan/IMFN" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary">GitHub</a>
