@@ -52,7 +52,7 @@ function Projects() {
                     <span className="badge bg-secondary me-1">VS Code</span>
                     <span className="badge bg-secondary me-1">GitHub</span>
                     <div className="mt-3">
-                      <a style={{color: 'green', border: '1px solid green'}} href="" className="btn btn-sm btn-outline-info me-2">Live Demo Not Available</a>
+                      <a style={{color: 'red', border: '1px solid red'}} href="" className="btn btn-sm btn-outline-info me-2">Live Demo Not Available</a>
                       <a href="https://github.com/fidhaan/IMFN" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary">GitHub</a>
                     </div>
                   </div>
