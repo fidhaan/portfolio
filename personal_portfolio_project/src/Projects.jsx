@@ -34,8 +34,32 @@ function Projects() {
                   </div>
                 </div>
               </div>
-              
+
               {/* Project Card 2 */}
+              <div className="col-md-6 col-lg-4">
+                <div className="card h-100 shadow-sm border-0">
+                  <div className="card-body">
+                    <h5 style={{color: 'blue'}} className="card-title text fs-4">Portfolio</h5>
+                    <p className="card-text text-muted">
+                      Developed my portfolio using React, Bootstrap, VS Code, GitHub, JavaScript, 
+CSS, and HTML.
+                    </p>
+                    <span className="badge bg-secondary me-1">React</span>
+                    <span className="badge bg-secondary me-1">Bootstrap</span>
+                    <span className="badge bg-secondary me-1">VS Code</span>
+                    <span className="badge bg-secondary me-1">GitHub</span>
+                    <span className="badge bg-secondary me-1">JavaScript</span>
+                    <span className="badge bg-secondary me-1">CSS</span>
+                    <span className="badge bg-secondary me-1">HTML</span>
+                    <div className="mt-3">
+                      <a style={{color: 'green', border: '1px solid green'}} href="https://fidhaan.netlify.app" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-info me-2">Live Demo</a>
+                      <a style={{color: 'grey', border: '1px solid grey'}} href="https://github.com/fidhaan/portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary">GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Project Card 3 */}
               <div className="col-md-6 col-lg-4">
                 <div className="card h-100 shadow-sm border-0">
                   <div className="card-body">
