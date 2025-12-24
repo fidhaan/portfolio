@@ -11,9 +11,9 @@ const PDF_PATH = './assets/fidhaanportfolio.pdf';
  */
 const ResumeDownload = () => (
     <div style={{marginTop: '200px'}}><a 
-        href='https://drive.google.com/file/d/1pwN3LKwWdI01kTqiF9arzTn4vizk5CKb/view?usp=sharing' style={{marginLeft: '650px', backgroundColor: 'green', color: 'white', textDecoration: 'none', padding: '10px'}}
+        href='https://drive.google.com/file/d/1uxNZ9fujJgAzQ_TO7Pf0lUwlEh9RXTpn/view?usp=sharing' style={{marginLeft: '650px', backgroundColor: 'green', color: 'white', textDecoration: 'none', padding: '10px'}}
         // The 'download' attribute forces a download and suggests a filename.
-        download="MuhammadFidhaanFMResume.pdf" 
+        download="ResumeMuhammadFidhaanFM.pdf" 
         className="inline-flex items-center justify-center space-x-2 px-6 py-3 border border-transparent 
                    text-base font-medium rounded-xl shadow-sm text-white bg-green-600 
                    hover:bg-green-700 transition duration-150 ease-in-out transform hover:scale-[1.02]
