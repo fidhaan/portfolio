@@ -41,11 +41,12 @@ function Projects() {
                   <div className="card-body">
                     <h5 style={{color: 'blue'}} className="card-title text fs-4">Portfolio</h5>
                     <p className="card-text text-muted">
-                      Developed my portfolio using React, Bootstrap, VS Code, GitHub, JavaScript, 
+                      Developed my portfolio using React, Bootstrap, Netlify, VS Code, GitHub, JavaScript, 
 CSS, and HTML.
                     </p>
                     <span className="badge bg-secondary me-1">React</span>
                     <span className="badge bg-secondary me-1">Bootstrap</span>
+                    <span className="badge bg-secondary me-1">Netlify</span>
                     <span className="badge bg-secondary me-1">VS Code</span>
                     <span className="badge bg-secondary me-1">GitHub</span>
                     <span className="badge bg-secondary me-1">JavaScript</span>

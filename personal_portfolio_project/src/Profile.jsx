@@ -82,7 +82,7 @@ const Profile = () => {
                       </div>
                       {/* Value (Takes 8 columns, aligning the value consistently) */}
                       <div className="col-8 text-secondary">
-                        Full Stack Web Developer (Backend: Django, REST API, MySQL, Python; Frontend: React, JavaScript, Bootstrap, CSS, HTML), Tools: GitHub, VS Code, MS Office, Python Anywhere
+                        Full Stack Web Developer (Backend: Django, REST API, MySQL, Python; Frontend: React, JavaScript, Bootstrap, CSS, HTML), Tools: GitHub, VS Code, MS Office, Python Anywhere, Netlify
                       </div>
                       <hr />
                       <div className="col-4 fw-bold text-dark">
@@ -92,7 +92,6 @@ const Profile = () => {
                       <div className="col-8 text-secondary">
                         <ul>
                           <li>Full Stack Web Developer Intern at Luminar Technolab - April 21st 2025 - November 7th 2025 (6 months)</li>
-                          <li>Project Team Member at Softzane Solutions - January 1st 2025 - April 1st 2025 (3 months)</li>
                         </ul>
                         
                       </div>
@@ -126,6 +125,7 @@ const Profile = () => {
                       {/* Value (Takes 8 columns, aligning the value consistently) */}
                       <div className="col-8 text-secondary">
                         <ul>
+                          <li>National Council for Technology and Training (NACTET) Python-Web Development Expert certificate</li>
                           <li>Hackerrank Python (Basic) certificate</li>
                           <li>Hackerrank SQL (Advanced) certificate</li>
                           <li>Hackerrank SQL (Basic) certificate</li>

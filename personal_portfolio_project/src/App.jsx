@@ -7,6 +7,7 @@ import Profile from './Profile';
 import Projects from './Projects';
 import ResumeDownload from './ResumeDownload';
 import Contacts from './Contacts';
+import RoomList from './RoomList';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
          <Route path='/projects' element={<Projects />} />
          <Route path='/resume' element={<ResumeDownload />} />
          <Route path='/contact' element={<Contacts />} />
+         <Route path='/roomlist' element={<RoomList />} />
       </Routes>
      </main>
      <Footer/>
