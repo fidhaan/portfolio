@@ -91,7 +91,7 @@ const Profile = () => {
                       {/* Value (Takes 8 columns, aligning the value consistently) */}
                       <div className="col-8 text-secondary">
                         <ul>
-                          <li>Full Stack Web Developer Intern at Luminar Technolab - April 21st 2025 - November 7th 2025 (6 months)</li>
+                          <li>Software Developer Intern at Aspen Digital Solutions - (February 21st, 2026 - Present)</li>
                         </ul>
                         
                       </div>
@@ -111,10 +111,10 @@ const Profile = () => {
                       {/* Value (Takes 8 columns, aligning the value consistently) */}
                       <div className="col-8 text-secondary">
                         <ul>
-                          <li>Drawing</li>
-                          <li>Dancing</li>
-                          <li>Singing</li>
-                          <li>Gaming</li>
+                          <li>Drawing 🖼️</li>
+                          <li>Dancing 🕺</li>
+                          <li>Singing 🎤</li>
+                          <li>Gaming 🎮</li>
                         </ul>
                         
                       </div>

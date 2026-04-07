@@ -33,7 +33,7 @@ const Homepage = () => {
                 </h1>
                 
                 <p className="lead text-white mb-4">
-                  A passionate Full-Stack Developer specialized in modern web technologies like <b>React</b>, <b>Django</b>, and <b>REST API</b>.
+                  A passionate Full-Stack Developer specializing in modern web technologies, including React, Django, and Django REST Framework. Experienced in deploying and managing applications via PythonAnywhere and Netlify.
                 </p>
                 
                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center">
@@ -63,14 +63,41 @@ const Homepage = () => {
               Featured Projects
             </h2>
 
+              
+
             <div className="row g-4">
+
+              {/* Project Card 1 */}
+              <Link style={{textDecoration: 'none'}} to={'/projects'} className="col-md-6 col-lg-4">
+                <div className="card h-100 shadow-sm border-0">
+                  <div className="card-body">
+                    <h5 style={{color: 'green'}} className="card-title text fs-4">Modular Secure Retail Billing System 🧮</h5>
+                    <p className="card-text text-muted">
+                      Developed a modular billing web application using Django, designed for cross-industry adaptability. The
+                      system's modular architecture allows it to function as a specialized tool for various sectors; for instance, jewelry shop
+                      owners can access industry-specific features like real-time gold rate updates and specialized inventory management.
+                      Alternatively, switching to ”Pharmacy Mode” enables critical features such as batch number tracking and expiration
+                      monitoring. This flexible design ensures the application meets the unique standards and operational needs of any
+                      business....
+                    </p>
+                    <span className="badge bg-secondary me-1">Django</span>
+                    <span className="badge bg-secondary me-1">MySQL</span>
+                    <span className="badge bg-secondary me-1">JavaScript</span>
+                    <span className="badge bg-secondary me-1">Bootstrap</span>
+                    <span className="badge bg-secondary me-1">HTML</span>
+                    <span className="badge bg-secondary me-1">GitHub</span>
+                    
+                  </div>
+                </div>
+            </Link>
+
               {/* Project Card 1 */}
               <Link style={{textDecoration: 'none'}} to={'/projects'} className="col-md-6 col-lg-4">
                 <div className="card h-100 shadow-sm border-0">
                   <div className="card-body">
                     <h5 style={{color: 'blue'}} className="card-title text fs-4">Hotel Booking System 🏨</h5>
                     <p className="card-text text-muted">
-                      Hotel Booking System is web application to book hotel rooms from across the globe 🌏. It has two modules, customer module & another one is hotel owner module. Features of customer module is search hotel room using room number, hotel name, room type (Single, double, ...), price and can add to favourites list or book online, booked room can be rated and reviewed, payments are also done in online, can see the payment ...
+                      The Hotel Booking System is a comprehensive web application designed to facilitate global room reservations through two distinct interfaces: the Customer module and the Hotel Owner module. In the Customer module, users can search for accommodations using specific criteria such as room number, hotel name, room type (ranging from single to double occupancy), and price points. Customers have the ability to manage a favorites list, book rooms online, process payments securely, and track their transaction...
                     </p>
                     <span className="badge bg-secondary me-1">Django</span>
                     <span className="badge bg-secondary me-1">MySQL</span>
@@ -82,10 +109,28 @@ const Homepage = () => {
                     <span className="badge bg-secondary me-1">VS Code</span>
                     <span className="badge bg-secondary me-1">GitHub</span>
                     <span className="badge bg-secondary me-1">Python Anywhere</span>
-                    <div className="mt-3">
-                      <a style={{color: 'green', border: '1px solid green'}} href="https://projecthotel204.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-info me-2">Live Demo</a>
-                      <a style={{color: 'grey', border: '1px solid grey'}} href="https://github.com/fidhaan/Find-Hotel" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary">GitHub</a>
-                    </div>
+                    
+                  </div>
+                </div>
+              </Link>
+
+              {/* Project Card 2 */}
+              <Link style={{textDecoration: 'none'}} to={'/projects'} className="col-md-6 col-lg-4">
+                <div className="card h-100 shadow-sm border-0">
+                  <div className="card-body">
+                    <h5 style={{color: 'grey'}} className="card-title text fs-4">Portfolio 👤</h5>
+                    <p className="card-text text-muted">
+                      I developed my portfolio using a modern web development stack that includes React for the frontend architecture and Bootstrap for responsive design. I wrote the code in VS Code using JavaScript, CSS, and HTML, managed version control through GitHub, and successfully deployed the final project via Netlify.
+                    </p>
+                    <span className="badge bg-secondary me-1">React</span>
+                    <span className="badge bg-secondary me-1">Bootstrap</span>
+                    <span className="badge bg-secondary me-1">Netlify</span>
+                    <span className="badge bg-secondary me-1">VS Code</span>
+                    <span className="badge bg-secondary me-1">GitHub</span>
+                    <span className="badge bg-secondary me-1">JavaScript</span>
+                    <span className="badge bg-secondary me-1">CSS</span>
+                    <span className="badge bg-secondary me-1">HTML</span>
+                   
                   </div>
                 </div>
               </Link>
@@ -96,7 +141,7 @@ const Homepage = () => {
                   <div className="card-body">
                     <h5 style={{color: 'green'}} className="card-title text-green fs-4">Integrated Medical Facility Network 🏥</h5>
                     <p className="card-text text-muted">
-                      Integrated Medical Facility Network shortly called as IMFN. It is hospital management system which provide all services to a patient including online appointment, transfer to another hospital, Ambulance services, Emergency alerts, virtual meeting with doctors etc. This project has 5 modules which are patients, doctors, hospital, ambulance, web application administration
+                      The Integrated Medical Facility Network, commonly referred to as IMFN, is a comprehensive hospital management system designed to streamline patient care and healthcare logistics. This platform provides an extensive suite of services, including online appointment scheduling, inter-hospital transfers, integrated ambulance coordination, and real-time emergency alerts, alongside virtual consultations with medical professionals. The project is structured into five distinct modules: Patients, Doctors, Hospital, Ambulance, and Web Application Administration.
                     </p>
                     <span className="badge bg-secondary me-1">Django</span>
                     <span className="badge bg-secondary me-1">Python</span>
@@ -106,10 +151,7 @@ const Homepage = () => {
                     <span className="badge bg-secondary me-1">HTML</span>
                     <span className="badge bg-secondary me-1">VS Code</span>
                     <span className="badge bg-secondary me-1">GitHub</span>
-                    <div className="mt-3">
-                      <a style={{color: 'red', border: '1px solid red'}} href="" className="btn btn-sm btn-outline-info me-2">Live Demo Not Available</a>
-                      <a href="https://github.com/fidhaan/IMFN" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-secondary">GitHub</a>
-                    </div>
+                    
                   </div>
                 </div>
               </Link>
@@ -129,7 +171,7 @@ const Homepage = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-8 text-center text-secondary">
                         <p className="lead text-white mb-4">
-                            I am a BSc Computer Science graduate and a Full-Stack Web Developer, specialized in React, Bootstrap, JavaScript, CSS, HTML for modern responsive frontend developments and Django, REST API, MySQL, Python for robust backend developments, and I am also proficient in tools like GitHub, VS Code, MS Office and Python Anywhere.
+                            As a BSc Computer Science graduate and Full-Stack Web Developer, I specialize in building modern, responsive frontends using React, Bootstrap, JavaScript, CSS, and HTML, complemented by robust backend development powered by Django, Python, MySQL, and REST APIs. I am also proficient in leveraging essential industry tools such as GitHub and VS Code for development, along with MS Office for documentation and Netlify or PythonAnywhere for seamless deployment.
                         </p>
                         <Link to={'/contact'} className="btn btn-btn-black bg-white mt-4">
                             Get In Touch

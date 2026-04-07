@@ -46,7 +46,7 @@ const Profile = () => {
                       
                       {/* Value (Takes 8 columns, aligning the value consistently) */}
                       <div className="col-8 text-secondary">
-                        <a style={{color: 'grey', textDecoration: 'none'}} href='https://maps.app.goo.gl/qBYh32fsyHPaNtC77'>330B, F. M. Villa, Moothala, Pallickal, 695604</a>
+                        <a style={{color: 'grey', textDecoration: 'none'}} href='https://maps.app.goo.gl/qBYh32fsyHPaNtC77'>330B, F. M. Villa, Pallickal, K.K.Konam P.O., 695604, Keralam, India</a>
                       </div>
                       <hr />
                       {/* Label (Bold and takes 4 columns) */}
